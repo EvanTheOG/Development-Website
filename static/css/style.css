@@ -1,0 +1,53 @@
+* {
+  font-size: 18px;
+  font-family: 'lato',sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.vp-content-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: url(http://i.imgur.com/gE4XDOu.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: hsla(0,0%,100%,0.25);
+  background-blend-mode: overlay;
+  overflow: hidden;
+  color: white;
+}
+
+.vp-content {
+  position: absolute;
+   top: 27%;
+   bottom: 25%;
+   right: 25%;
+   left: 30%;
+  letter-spacing: 0.1em;
+}
+
+.left img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 6px solid #154166;
+}
+
+.vp-links li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.right h2{
+  font-weight: bold;
+}
+
+.right h4 {
+  font-size: 1em;
+  font-weight: lighter;
+  width: 90%;
+  line-height: 1.1em;
+}
+
+.vp-links i {color: #154166}
+.vp-links i:hover {
+  color: #337ab7;
+}
